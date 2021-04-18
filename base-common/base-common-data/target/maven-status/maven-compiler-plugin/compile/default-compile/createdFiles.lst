@@ -1,0 +1,3 @@
+config\mybatis\MybatisPlusConfig.class
+config\RedisTemplateConfig.class
+config\RestTemplateConfig.class
