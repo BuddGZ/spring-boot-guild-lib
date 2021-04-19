@@ -1,0 +1,15 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: base-gateway
+  cloud:
+    gateway:
+      routes:
+      - id: mall
+        uri: http://localhost:8080
+        predicates:
+          - Path=/gate/
+#        filters:
+#          - PrefixPath=/gate/
