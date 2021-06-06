@@ -11,6 +11,8 @@
 
     <artifactId>base-common</artifactId>
     <packaging>pom</packaging>
+    <version>1.0.0</version>
+
     <modules>
         <module>base-email</module>
         <module>base-common-data</module>
